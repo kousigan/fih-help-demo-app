@@ -46,8 +46,7 @@ async function AttachmentLoader(url) {
      const response = await fetch(url, {
         method: 'GET',
         headers: {
-            'Authorization': 'Basic a291c2lnYW4ubW9uaUBmZWZ1bmRpbmZvLmNvbTpQR2xBcWRLOXMxQTBlUnpDTDZ3cUY1NTg=',
-          },
+           },
       })
      .then(res => {
         // console.log(res.url)
