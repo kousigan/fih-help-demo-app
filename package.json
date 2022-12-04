@@ -1,0 +1,22 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.27.10",
+    "confluence.js": "^1.6.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "gm": "^1.25.0",
+    "node-fetch": "^3.2.10",
+    "request": "^2.88.2"
+  }
+}
