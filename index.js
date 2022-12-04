@@ -26,8 +26,7 @@ async function MyApp(id) {
     const response = await fetch(url, {
         method: 'GET',
         headers: {
-            'Authorization': 'Basic a291c2lnYW4ubW9uaUBmZWZ1bmRpbmZvLmNvbTpQR2xBcWRLOXMxQTBlUnpDTDZ3cUY1NTg=',
-            // 'Accept': 'application/json',
+             // 'Accept': 'application/json',
             // 'Content-Type': 'application/json'
           },
       })
